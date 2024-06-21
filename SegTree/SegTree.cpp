@@ -1,6 +1,6 @@
 int N = 0;
 vector<int> sgt;
-NumArray(vector<int>& nums) {
+void NumArray(vector<int>& nums) {
     N = nums.size();
     sgt.resize(2 * N + 1);
     
